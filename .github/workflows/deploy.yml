@@ -19,6 +19,6 @@ jobs:
         with:
           fetch-depth: 0
       - name: Setup Quartz
-        uses: jackyzha0/quartz-github-action@v4
+        uses: jackyzha0/quartz-github-action@master
         with:
           required_environments: 'true'
